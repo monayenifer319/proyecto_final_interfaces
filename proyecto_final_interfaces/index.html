@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="estilo.css">	
+</head>
+<body>
+<!-- menu desplegable -->
+<header class="menu_amburguesa">
+	<h1 <i class="fa fa-home" aria-hidden="true"></i>hola mundo</h1>
+		<input type="checkbox" id="menu-bar">
+		<label <i class="fa fa-bars" aria-hidden="true" for="menu-bar"></label>	
+		<nav class="menu">
+			<a href="#">Inicio</a>
+			<a href="#">Quienes somos</a>
+			<a href="#">Contacto</a>
+			<a href="#">Acerca de</a>
+		</nav>	
+</header>
+	<ul class="menu_inicio">
+		<li><a href="#">Inicio</a></li>
+		<li><a href="#">Quienes somos</a></li>
+		<li><a href="#">Contacto</a></li>
+		<li><a href="#">Acerca de</a></li>
+		<i class="fa fa-search" aria-hidden="true"></i>
+	</ul>
+	<div class="imagen">
+		<img src="imagenes/imagen.jpeg">
+		<h4>nombre imagen</h4><br><br><br><br><br>
+	</div>
+	<a href="#" class="boton_rojo">Ver mas</a>
+	<a href="#" class="boton_verde">Ver mas</a>
+	<h1 class="titulo_azul">hola mundo</h1>
+	<h1 class="titulo_rojo">hola mundo</h1>
+	<div id="header">
+		<ul class="menu_desplegable">
+			<li><a href="">Inicio</a>
+				<ul>
+					<li><a href="">Submenu1</a></li>
+					<li><a href="">Submenu2</a></li>
+					<li><a href="">Submenu3</a></li>
+				</ul>
+			</li>
+			<li><a href="">Quienes somos</a>
+				<ul>
+					<li><a href="">Submenu1</a></li>
+					<li><a href="">Submenu2</a></li>
+				</ul>	
+			</li>
+			<li><a href="">Contacto</a></li>
+			<li><a href="">Acerca de</a></li>
+		</ul>
+	</div>
+	<div class="formulario">
+		<h2 class="titulo_form">formulario de registro</h2>
+		<form action="">
+			<input type="text" name="nombre" class="nombre" placeholder="ingrese su nombre">
+			<input type="text" name="apellido" class="apellido" placeholder="ingrese su apellido">
+			<input type="text" name="" placeholder="ingrese fecha de nacimiento">
+			<input type="email" name="email" class="email" placeholder="ingrese su correo electronico">
+			<input type="password" name="contrasena" class="contrasena" placeholder="ingrese su contraseña">
+			<input type="password" name="contrasena" class="contrasena" placeholder="ingrese su contraseña">
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Cancelar">
+		</form>	
+	</div>
+	<label>seleccione su animal favorito</label>
+	<select id="animal">
+		<option id="perro">Perro</option>
+		<option id="gato">Gato</option>
+		<option id="ave">Ave</option>
+	</select>
+	<div id="imagen"></div>
+	<form>
+		<label>Nomnre</label>
+		<br>
+		<label for="">Sexo</label>
+		<input type="radio" name="sexo" value="m">Masculino
+		<br>
+		<input type="radio" name="sexo" value="f"femenino>
+		<br>
+		<label for="Deportes favoritos"></label>
+		<input type="checkbox" name="deportes_favoritos" value="futbol"> fútbol <br>
+		<input type="checkbox" name="deportes_favoritos" value="baloncesto" > baloncesto <br>
+		<input type="checkbox" name="deportes favoritos" value="tenis" > tenis <br>
+		<label for="mensione tus habilidades"></label>
+			<textarea name="habilidades" placeholder="ingrese habilidaes" required=""></textarea>
+		<br>
+		<input type="submit" name="" value="Enviar">
+		<input type="reset" name="" value="Borrar">
+	</form>
+
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="codigo.js"></script>
+
+	
+</body>
+</html>
